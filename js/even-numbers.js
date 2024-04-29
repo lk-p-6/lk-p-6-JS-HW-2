@@ -1,7 +1,7 @@
 'use strict';
 
 // getting user value
-const maxValue = -40;
+const maxValue = Number(prompt("Enter your number: "));
 
 // with for:
 if(isNaN(maxValue)){
